@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #000;
+  color: #f5f5f5;
+}
+
+main {
+  width: 70vw;
+  max-width: 650px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  min-height: 20vh;
+  background-color: #3a69d2;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 1rem 0;
+  font-size: 2.7rem;
+}
+
+section {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.serivce-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.serivce-options button {
+  background-color: #d1d4f4;
+  color: #4a4e74;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+.service-manage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.service-manage span,
+.bottom-manage span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+/* .container-top {
+  padding: 1rem 0;
+} */
+
+.finance,
+.bottom-manage,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#finance {
+  border-bottom: 2px solid #c3c6db;
+  padding: 1rem 0;
+}
+
+.finance {
+  padding: 0.5rem 0;
+}
+
+.finance h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.finance h4 span {
+  font-size: 0.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.finance p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.finance p span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #918e9b;
+}
+
+.container-bottom {
+  padding: 2rem 0;
+}
+
+.bottom-manage span {
+  font-weight: 300;
+}
+
+.footer {
+  margin-bottom: 2rem;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.footer h2 {
+  font-size: 2rem;
+}
+.container-bottom button {
+  width: 100%;
+  color: #fff;
+  background-color: #3a69d2;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+.show {
+  display: none;
+}

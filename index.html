@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>invoice App</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+      </header>
+      <section>
+        <div class="container-top">
+          <div class="serivce-options">
+            <button class="btn" id="btn-wash">Wash Car: $10</button>
+            <button class="btn" id="btn-mow">Mow Lown: $20</button>
+            <button class="btn" id="btn-pull">Pull Weeds: $30</button>
+          </div>
+          <div class="service-manage">
+            <span>task</span>
+            <span>total</span>
+          </div>
+        </div>
+
+        <div id="finance"></div>
+
+        <div class="container-bottom">
+          <div class="bottom-manage">
+            <span>notes</span>
+            <span>total amount</span>
+          </div>
+          <div class="footer">
+            <p class="note show">We accept cash, credit card, or PayPal</p>
+            <p></p>
+            <h2 id="total">$0</h2>
+          </div>
+          <button id="send-btn">
+            <i class="fa-solid fa-envelope"></i>Send Invoice
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
